@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ButtonInfosContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ouvrirLeBindToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="ouvrirLeBindToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modifier le bind</value>
+  </data>
+  <data name="ouvrirLeSonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="ouvrirLeSonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir le fichier son</value>
+  </data>
+  <data name="ChangeSoundToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="ChangeSoundToolStripMenuItem.Text" xml:space="preserve">
+    <value>Changer le son</value>
+  </data>
+  <data name="ButtonInfosContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 70</value>
+  </data>
+  <data name="ButtonInfosContextMenu.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;ButtonInfosContextMenu.Name" xml:space="preserve">
+    <value>ButtonInfosContextMenu</value>
+  </data>
+  <data name="&gt;&gt;ButtonInfosContextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sound1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 37</value>
+  </data>
+  <data name="Sound1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Sound1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Sound1.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound1.Name" xml:space="preserve">
+    <value>Sound1</value>
+  </data>
+  <data name="&gt;&gt;Sound1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound1.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="Sound2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 37</value>
+  </data>
+  <data name="Sound2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Sound2.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound2.Name" xml:space="preserve">
+    <value>Sound2</value>
+  </data>
+  <data name="&gt;&gt;Sound2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound2.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Sound3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 37</value>
+  </data>
+  <data name="Sound3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Sound3.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound3.Name" xml:space="preserve">
+    <value>Sound3</value>
+  </data>
+  <data name="&gt;&gt;Sound3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound3.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="Sound4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 37</value>
+  </data>
+  <data name="Sound4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Sound4.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound4.Name" xml:space="preserve">
+    <value>Sound4</value>
+  </data>
+  <data name="&gt;&gt;Sound4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound4.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Sound6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 37</value>
+  </data>
+  <data name="Sound6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Sound6.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound6.Name" xml:space="preserve">
+    <value>Sound6</value>
+  </data>
+  <data name="&gt;&gt;Sound6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound6.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Sound5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 37</value>
+  </data>
+  <data name="Sound5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Sound5.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound5.Name" xml:space="preserve">
+    <value>Sound5</value>
+  </data>
+  <data name="&gt;&gt;Sound5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound5.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <metadata name="SettingsMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>206, 17</value>
+  </metadata>
+  <data name="OuvrirLeFichierDeSauvegardeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="OuvrirLeFichierDeSauvegardeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir le fichier de sauvegarde</value>
+  </data>
+  <data name="accèdezAuCodeSourceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="accèdezAuCodeSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Accédez au code source</value>
+  </data>
+  <data name="accédezAuxTutorielsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="accédezAuxTutorielsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Accédez aux tutoriels</value>
+  </data>
+  <data name="supportDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="supportDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Support (Discord)</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SettingsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="SettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="SettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="SettingsMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SettingsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <data name="SettingsMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="SettingsMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.Name" xml:space="preserve">
+    <value>SettingsMenu</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SettingsMenu.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Sound8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 95</value>
+  </data>
+  <data name="Sound8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound8.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Sound8.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound8.Name" xml:space="preserve">
+    <value>Sound8</value>
+  </data>
+  <data name="&gt;&gt;Sound8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound8.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Sound7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
+  </data>
+  <data name="Sound7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound7.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Sound7.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound7.Name" xml:space="preserve">
+    <value>Sound7</value>
+  </data>
+  <data name="&gt;&gt;Sound7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound7.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Sound12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 95</value>
+  </data>
+  <data name="Sound12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound12.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Sound12.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound12.Name" xml:space="preserve">
+    <value>Sound12</value>
+  </data>
+  <data name="&gt;&gt;Sound12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound12.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Sound9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 95</value>
+  </data>
+  <data name="Sound9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound9.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Sound9.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound9.Name" xml:space="preserve">
+    <value>Sound9</value>
+  </data>
+  <data name="&gt;&gt;Sound9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound9.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Sound10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 95</value>
+  </data>
+  <data name="Sound10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound10.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Sound10.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound10.Name" xml:space="preserve">
+    <value>Sound10</value>
+  </data>
+  <data name="&gt;&gt;Sound10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound10.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Sound11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 95</value>
+  </data>
+  <data name="Sound11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound11.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Sound11.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound11.Name" xml:space="preserve">
+    <value>Sound11</value>
+  </data>
+  <data name="&gt;&gt;Sound11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound11.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Sound15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 153</value>
+  </data>
+  <data name="Sound15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound15.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Sound15.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound15.Name" xml:space="preserve">
+    <value>Sound15</value>
+  </data>
+  <data name="&gt;&gt;Sound15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound15.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Sound13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 153</value>
+  </data>
+  <data name="Sound13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound13.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Sound13.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound13.Name" xml:space="preserve">
+    <value>Sound13</value>
+  </data>
+  <data name="&gt;&gt;Sound13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound13.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Sound14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 153</value>
+  </data>
+  <data name="Sound14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound14.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Sound14.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound14.Name" xml:space="preserve">
+    <value>Sound14</value>
+  </data>
+  <data name="&gt;&gt;Sound14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound14.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Sound16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 153</value>
+  </data>
+  <data name="Sound16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound16.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Sound16.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound16.Name" xml:space="preserve">
+    <value>Sound16</value>
+  </data>
+  <data name="&gt;&gt;Sound16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound16.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Sound18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 153</value>
+  </data>
+  <data name="Sound18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound18.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Sound18.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound18.Name" xml:space="preserve">
+    <value>Sound18</value>
+  </data>
+  <data name="&gt;&gt;Sound18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound18.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Sound17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 153</value>
+  </data>
+  <data name="Sound17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound17.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="Sound17.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound17.Name" xml:space="preserve">
+    <value>Sound17</value>
+  </data>
+  <data name="&gt;&gt;Sound17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound17.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Sound20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 211</value>
+  </data>
+  <data name="Sound20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound20.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Sound20.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound20.Name" xml:space="preserve">
+    <value>Sound20</value>
+  </data>
+  <data name="&gt;&gt;Sound20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound20.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Sound19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 211</value>
+  </data>
+  <data name="Sound19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound19.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="Sound19.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound19.Name" xml:space="preserve">
+    <value>Sound19</value>
+  </data>
+  <data name="&gt;&gt;Sound19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound19.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Sound21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 214</value>
+  </data>
+  <data name="Sound21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound21.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Sound21.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound21.Name" xml:space="preserve">
+    <value>Sound21</value>
+  </data>
+  <data name="&gt;&gt;Sound21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound21.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Sound22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 211</value>
+  </data>
+  <data name="Sound22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound22.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Sound22.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound22.Name" xml:space="preserve">
+    <value>Sound22</value>
+  </data>
+  <data name="&gt;&gt;Sound22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound22.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Sound23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 211</value>
+  </data>
+  <data name="Sound23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound23.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Sound23.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound23.Name" xml:space="preserve">
+    <value>Sound23</value>
+  </data>
+  <data name="&gt;&gt;Sound23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound23.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Sound24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 211</value>
+  </data>
+  <data name="Sound24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound24.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Sound24.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound24.Name" xml:space="preserve">
+    <value>Sound24</value>
+  </data>
+  <data name="&gt;&gt;Sound24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound24.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Sound27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 269</value>
+  </data>
+  <data name="Sound27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound27.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Sound27.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound27.Name" xml:space="preserve">
+    <value>Sound27</value>
+  </data>
+  <data name="&gt;&gt;Sound27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound27.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Sound25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 269</value>
+  </data>
+  <data name="Sound25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound25.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Sound25.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound25.Name" xml:space="preserve">
+    <value>Sound25</value>
+  </data>
+  <data name="&gt;&gt;Sound25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound25.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Sound26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 269</value>
+  </data>
+  <data name="Sound26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound26.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="Sound26.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound26.Name" xml:space="preserve">
+    <value>Sound26</value>
+  </data>
+  <data name="&gt;&gt;Sound26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound26.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Sound32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 327</value>
+  </data>
+  <data name="Sound32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound32.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Sound32.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound32.Name" xml:space="preserve">
+    <value>Sound32</value>
+  </data>
+  <data name="&gt;&gt;Sound32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound32.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Sound30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 269</value>
+  </data>
+  <data name="Sound30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound30.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="Sound30.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound30.Name" xml:space="preserve">
+    <value>Sound30</value>
+  </data>
+  <data name="&gt;&gt;Sound30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound30.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Sound29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 269</value>
+  </data>
+  <data name="Sound29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound29.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="Sound29.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound29.Name" xml:space="preserve">
+    <value>Sound29</value>
+  </data>
+  <data name="&gt;&gt;Sound29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound29.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Sound28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 269</value>
+  </data>
+  <data name="Sound28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound28.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="Sound28.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound28.Name" xml:space="preserve">
+    <value>Sound28</value>
+  </data>
+  <data name="&gt;&gt;Sound28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound28.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Sound31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 327</value>
+  </data>
+  <data name="Sound31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound31.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="Sound31.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound31.Name" xml:space="preserve">
+    <value>Sound31</value>
+  </data>
+  <data name="&gt;&gt;Sound31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound31.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Sound35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 327</value>
+  </data>
+  <data name="Sound35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound35.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Sound35.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound35.Name" xml:space="preserve">
+    <value>Sound35</value>
+  </data>
+  <data name="&gt;&gt;Sound35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound35.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound35.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Sound34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 327</value>
+  </data>
+  <data name="Sound34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound34.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="Sound34.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound34.Name" xml:space="preserve">
+    <value>Sound34</value>
+  </data>
+  <data name="&gt;&gt;Sound34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound34.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Sound33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 327</value>
+  </data>
+  <data name="Sound33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound33.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="Sound33.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound33.Name" xml:space="preserve">
+    <value>Sound33</value>
+  </data>
+  <data name="&gt;&gt;Sound33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound33.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Sound36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 327</value>
+  </data>
+  <data name="Sound36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound36.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="Sound36.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound36.Name" xml:space="preserve">
+    <value>Sound36</value>
+  </data>
+  <data name="&gt;&gt;Sound36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound36.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound36.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Sound39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 385</value>
+  </data>
+  <data name="Sound39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound39.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="Sound39.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound39.Name" xml:space="preserve">
+    <value>Sound39</value>
+  </data>
+  <data name="&gt;&gt;Sound39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound39.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound39.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Sound37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 385</value>
+  </data>
+  <data name="Sound37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound37.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="Sound37.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound37.Name" xml:space="preserve">
+    <value>Sound37</value>
+  </data>
+  <data name="&gt;&gt;Sound37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound37.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound37.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Sound38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 385</value>
+  </data>
+  <data name="Sound38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound38.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="Sound38.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound38.Name" xml:space="preserve">
+    <value>Sound38</value>
+  </data>
+  <data name="&gt;&gt;Sound38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound38.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound38.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Sound42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 385</value>
+  </data>
+  <data name="Sound42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound42.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="Sound42.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound42.Name" xml:space="preserve">
+    <value>Sound42</value>
+  </data>
+  <data name="&gt;&gt;Sound42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound42.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound42.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Sound41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 385</value>
+  </data>
+  <data name="Sound41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound41.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="Sound41.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound41.Name" xml:space="preserve">
+    <value>Sound41</value>
+  </data>
+  <data name="&gt;&gt;Sound41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound41.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound41.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Sound40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 385</value>
+  </data>
+  <data name="Sound40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Sound40.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="Sound40.Text" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="&gt;&gt;Sound40.Name" xml:space="preserve">
+    <value>Sound40</value>
+  </data>
+  <data name="&gt;&gt;Sound40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sound40.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sound40.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SoundBoard</value>
+  </data>
+  <data name="&gt;&gt;ouvrirLeBindToolStripMenuItem.Name" xml:space="preserve">
+    <value>ouvrirLeBindToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ouvrirLeBindToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ouvrirLeSonToolStripMenuItem.Name" xml:space="preserve">
+    <value>ouvrirLeSonToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ouvrirLeSonToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeSoundToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChangeSoundToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChangeSoundToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OuvrirLeFichierDeSauvegardeToolStripMenuItem.Name" xml:space="preserve">
+    <value>OuvrirLeFichierDeSauvegardeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;OuvrirLeFichierDeSauvegardeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>SettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accèdezAuCodeSourceToolStripMenuItem.Name" xml:space="preserve">
+    <value>accèdezAuCodeSourceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;accèdezAuCodeSourceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accédezAuxTutorielsToolStripMenuItem.Name" xml:space="preserve">
+    <value>accédezAuxTutorielsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;accédezAuxTutorielsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supportDiscordToolStripMenuItem.Name" xml:space="preserve">
+    <value>supportDiscordToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;supportDiscordToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
